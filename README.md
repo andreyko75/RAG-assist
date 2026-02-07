@@ -2,6 +2,13 @@
 
 RAG-ассистент с векторной базой **Weaviate** на VDS и генерацией ответов через **OpenAI API**. Отвечает на вопросы по загруженным документам, использует кеш и поддерживает оценку качества через RAGAS.
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)
+![Weaviate](https://img.shields.io/badge/Weaviate-4D4D4D?logo=weaviate&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![RAGAS](https://img.shields.io/badge/RAGAS-2C2C2C?logo=ragas&logoColor=white)
+![python-dotenv](https://img.shields.io/badge/python--dotenv-3776AB?logo=python&logoColor=white)
+
 **Репозиторий:** https://github.com/andreyko75/RAG-assist
 
 ---
@@ -72,8 +79,8 @@ RAG-ассистент с векторной базой **Weaviate** на VDS и
 ### Шаг 1: Клонирование репозитория
 
 ```bash
-git clone <URL_вашего_репозитория> per08
-cd per08
+git clone https://github.com/andreyko75/RAG-assist.git
+cd RAG-assist
 ```
 
 ### Шаг 2: Создание виртуального окружения
@@ -227,7 +234,7 @@ python vector_store.py
 ## 📝 Структура проекта
 
 ```
-per08/
+RAG-assist/
 ├── .env.example          # Пример переменных окружения
 ├── .gitignore
 ├── README.md
